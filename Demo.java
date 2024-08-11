@@ -80,5 +80,13 @@ public class Demo {
         System.out.println(students[i].name+":"+students[i].marks);
       }
 
+      // Enhanced for loop
+
+      int numsArray[]={1,2,3};
+      System.out.println("Enhanced for loop");
+      for (int n:numsArray){
+        System.out.println(n);
+      }
+
     }
 }
